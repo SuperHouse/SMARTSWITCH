@@ -257,6 +257,24 @@ Switch</text>
 <text x="5.6" y="25.36" size="1.4" layer="22" font="vector" ratio="18" rot="MR0" align="center-right">IO0</text>
 <text x="5.6" y="12.66" size="1.4" layer="22" font="vector" ratio="18" rot="MR0" align="center-right">GND</text>
 <text x="0.46" y="19" size="1.6" layer="22" font="vector" ratio="18" rot="MR90" align="bottom-center">ESPFlash</text>
+<wire x1="33.974" y1="14.878" x2="34.998" y2="13.076" width="0.254" layer="22" curve="-309.2564"/>
+<wire x1="33.974" y1="14.878" x2="35.36" y2="14.416" width="0.254" layer="22" curve="163.361194"/>
+<wire x1="35.36" y1="14.416" x2="35.1" y2="16.164" width="0.254" layer="22"/>
+<wire x1="35.568" y1="13.646" x2="37.578" y2="13.646" width="0.254" layer="22"/>
+<wire x1="37.578" y1="13.646" x2="37.216" y2="15.802" width="0.254" layer="22"/>
+<wire x1="34.944" y1="15.348" x2="37.878" y2="15.348" width="0.254" layer="22"/>
+<wire x1="37.878" y1="15.348" x2="36.184" y2="16.626" width="0.254" layer="22"/>
+<wire x1="36.184" y1="16.626" x2="34.944" y2="15.348" width="0.254" layer="22"/>
+<wire x1="37.5" y1="15.5" x2="35.4" y2="15.5" width="0.254" layer="22"/>
+<wire x1="35.4" y1="15.5" x2="35.8" y2="15.9" width="0.254" layer="22"/>
+<wire x1="35.8" y1="15.9" x2="36.2" y2="16.3" width="0.254" layer="22"/>
+<wire x1="36.2" y1="16.3" x2="36.2" y2="16.4" width="0.254" layer="22"/>
+<wire x1="37.2" y1="15.7" x2="35.7" y2="15.7" width="0.254" layer="22"/>
+<wire x1="35.8" y1="15.9" x2="37" y2="15.9" width="0.254" layer="22"/>
+<wire x1="36.8" y1="16.1" x2="36.1" y2="16.1" width="0.254" layer="22"/>
+<wire x1="36.5" y1="16.3" x2="36.3" y2="16.3" width="0.254" layer="22"/>
+<text x="29" y="12.5" size="2" layer="22" font="vector" ratio="18" distance="30" rot="MR0" align="bottom-center">Super
+House</text>
 </plain>
 <libraries>
 <library name="SuperHouse-Regulators" urn="urn:adsk.eagle:library:11786698">

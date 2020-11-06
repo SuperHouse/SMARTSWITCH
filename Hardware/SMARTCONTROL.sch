@@ -4000,6 +4000,7 @@ Weak local pull-ups on the buttons so that it can run without a controller.
 
 Tasmota expects active-low buttons. Ours are active high:
 https://github.com/arendst/Tasmota/issues/4914
+
 Configure inputs as "inverted" with "no pullups":
 GPIO5: Button4in
 GPIO12: Button1in

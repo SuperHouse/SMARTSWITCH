@@ -1700,32 +1700,28 @@ Standard ceramic capacitor</description>
 <part name="R1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:11768543/2" value="100R"/>
 <part name="IC1" library="SuperHouse-ICs" library_urn="urn:adsk.eagle:library:11768868" deviceset="WS2811" device="-SOP8" package3d_urn="urn:adsk.eagle:package:24584889/2"/>
 <part name="IC2" library="SuperHouse-ICs" library_urn="urn:adsk.eagle:library:11768868" deviceset="WS2811" device="-SOP8" package3d_urn="urn:adsk.eagle:package:24584889/2"/>
-<part name="IC3" library="SuperHouse-ICs" library_urn="urn:adsk.eagle:library:11768868" deviceset="WS2811" device="-SOP8" package3d_urn="urn:adsk.eagle:package:24584889/2"/>
 <part name="U$3" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
 <part name="U$4" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
 <part name="U$5" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
-<part name="U$6" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
 <part name="C1" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="CAP" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/6" value="1uF"/>
 <part name="C2" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="CAP" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/6" value="1uF"/>
-<part name="C3" library="SuperHouse-DiscreteSemi" library_urn="urn:adsk.eagle:library:11768461" deviceset="CAP" device="0603" package3d_urn="urn:adsk.eagle:package:7066315/6" value="1uF"/>
 <part name="GND7" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="H1" library="SuperHouse-Connectors" library_urn="urn:adsk.eagle:library:11765989" deviceset="M02X6" device="-SOCKET" package3d_urn="urn:adsk.eagle:package:15060598/2"/>
 <part name="GND2" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="GND" device=""/>
 <part name="U$9" library="SuperHouse-SupplySymbols" library_urn="urn:adsk.eagle:library:11790503" deviceset="5V" device=""/>
 <part name="SW1" library="SuperHouse-Switches" library_urn="urn:adsk.eagle:library:11744182" deviceset="QG16F-RGB" device="" package3d_urn="urn:adsk.eagle:package:24584939/2"/>
-<part name="SW3" library="SuperHouse-Switches" library_urn="urn:adsk.eagle:library:11744182" deviceset="QG16F-RGB" device="" package3d_urn="urn:adsk.eagle:package:24584939/2"/>
 <part name="SW2" library="SuperHouse-Switches" library_urn="urn:adsk.eagle:library:11744182" deviceset="QG16F-RGB" device="" package3d_urn="urn:adsk.eagle:package:24584939/2"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
-<text x="139.7" y="20.32" size="3.048" layer="94">Home Automation RGB Smart Switch (3 Button)</text>
+<text x="139.7" y="20.32" size="3.048" layer="94">Home Automation RGB Smart Switch (2 Button)</text>
 <text x="165.1" y="14.478" size="1.778" layer="94">V2.0 (2020-11-06)</text>
-<text x="139.7" y="14.478" size="1.778" layer="94">SKU: SMART3RGB</text>
+<text x="139.7" y="14.478" size="1.778" layer="94">SKU: SMART2RGB</text>
 <text x="139.446" y="9.398" size="1.778" layer="94">(C)2018-2020 SuperHouse Automation Pty Ltd: www.superhouse.tv</text>
 <text x="139.446" y="6.35" size="1.778" layer="94">Released under the TAPR Open Hardware License: www.tapr.org/ohl</text>
-<text x="195.326" y="14.478" size="1.778" layer="94">www.superhouse.tv/smart3rgb</text>
+<text x="195.326" y="14.478" size="1.778" layer="94">www.superhouse.tv/smart2rgb</text>
 <frame x1="137.16" y1="12.7" x2="243.84" y2="25.4" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="162.56" y1="12.7" x2="193.04" y2="17.78" columns="8" rows="5" layer="94"/>
 <frame x1="137.16" y1="5.08" x2="243.84" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
@@ -1758,9 +1754,6 @@ make the output match colour commands.</text>
 <instance part="IC2" gate="G$1" x="111.76" y="53.34" smashed="yes">
 <attribute name="NAME" x="104.14" y="45.72" size="1.778" layer="95"/>
 </instance>
-<instance part="IC3" gate="G$1" x="162.56" y="53.34" smashed="yes">
-<attribute name="NAME" x="154.94" y="45.72" size="1.778" layer="95"/>
-</instance>
 <instance part="U$3" gate="G$1" x="99.06" y="172.72" smashed="yes">
 <attribute name="VALUE" x="98.044" y="176.276" size="1.778" layer="96"/>
 </instance>
@@ -1770,9 +1763,6 @@ make the output match colour commands.</text>
 <instance part="U$5" gate="G$1" x="132.08" y="60.96" smashed="yes">
 <attribute name="VALUE" x="131.064" y="64.516" size="1.778" layer="96"/>
 </instance>
-<instance part="U$6" gate="G$1" x="182.88" y="60.96" smashed="yes">
-<attribute name="VALUE" x="181.864" y="64.516" size="1.778" layer="96"/>
-</instance>
 <instance part="C1" gate="G$1" x="81.28" y="53.34" smashed="yes">
 <attribute name="NAME" x="82.804" y="56.261" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.804" y="51.181" size="1.778" layer="96"/>
@@ -1781,12 +1771,8 @@ make the output match colour commands.</text>
 <attribute name="NAME" x="133.604" y="56.261" size="1.778" layer="95"/>
 <attribute name="VALUE" x="133.604" y="51.181" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="182.88" y="53.34" smashed="yes">
-<attribute name="NAME" x="184.404" y="56.261" size="1.778" layer="95"/>
-<attribute name="VALUE" x="184.404" y="51.181" size="1.778" layer="96"/>
-</instance>
-<instance part="GND7" gate="1" x="182.88" y="33.02" smashed="yes">
-<attribute name="VALUE" x="180.34" y="30.48" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="134.62" y="33.02" smashed="yes">
+<attribute name="VALUE" x="132.08" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="H1" gate="J$1" x="45.72" y="101.6" smashed="yes">
 <attribute name="VALUE" x="38.1" y="83.82" size="1.778" layer="96"/>
@@ -1802,10 +1788,6 @@ make the output match colour commands.</text>
 <attribute name="NAME" x="110.49" y="146.05" size="1.016" layer="95"/>
 <attribute name="VALUE" x="110.49" y="144.78" size="1.016" layer="96"/>
 </instance>
-<instance part="SW3" gate="G$1" x="147.32" y="142.24" smashed="yes">
-<attribute name="NAME" x="151.13" y="146.05" size="1.016" layer="95"/>
-<attribute name="VALUE" x="151.13" y="144.78" size="1.016" layer="96"/>
-</instance>
 <instance part="SW2" gate="G$1" x="106.68" y="101.6" smashed="yes">
 <attribute name="NAME" x="110.49" y="105.41" size="1.016" layer="95"/>
 <attribute name="VALUE" x="110.49" y="104.14" size="1.016" layer="96"/>
@@ -1818,38 +1800,26 @@ make the output match colour commands.</text>
 <segment>
 <wire x1="114.3" y1="101.6" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="154.94" y1="142.24" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
-<junction x="154.94" y="91.44"/>
 <label x="119.38" y="91.44" size="1.778" layer="95"/>
 <wire x1="114.3" y1="101.6" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 <junction x="114.3" y="101.6"/>
-<wire x1="152.4" y1="142.24" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SW1" gate="G$1" pin="2"/>
-<pinref part="SW3" gate="G$1" pin="2"/>
 <pinref part="SW2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="38.1" x2="182.88" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="50.8" x2="182.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="38.1" x2="134.62" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="50.8" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
-<junction x="182.88" y="38.1"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="38.1" x2="182.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
 <junction x="132.08" y="38.1"/>
 <wire x1="96.52" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="GND"/>
-<wire x1="149.86" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="50.8" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
-<junction x="147.32" y="38.1"/>
 <pinref part="IC2" gate="G$1" pin="GND"/>
 <wire x1="99.06" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="50.8" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
@@ -1889,15 +1859,9 @@ make the output match colour commands.</text>
 </net>
 <net name="DATA_3" class="0">
 <segment>
-<wire x1="127" y1="137.16" x2="17.78" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="127" y1="137.16" x2="127" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="127" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="137.16" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="H1" gate="J$1" pin="3"/>
-<wire x1="17.78" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
-<label x="129.54" y="142.24" size="1.778" layer="95"/>
-<label x="25.4" y="99.06" size="1.778" layer="95"/>
-<pinref part="SW3" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="35.56" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DATA_4" class="0">
@@ -1915,12 +1879,7 @@ make the output match colour commands.</text>
 <junction x="99.06" y="149.86"/>
 <pinref part="U$3" gate="G$1" pin="5V"/>
 <wire x1="99.06" y1="172.72" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="172.72" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="172.72" x2="139.7" y2="172.72" width="0.1524" layer="91"/>
-<junction x="99.06" y="172.72"/>
 <pinref part="SW1" gate="G$1" pin="+"/>
-<pinref part="SW3" gate="G$1" pin="+"/>
 <pinref part="SW2" gate="G$1" pin="+"/>
 </segment>
 <segment>
@@ -1940,14 +1899,6 @@ make the output match colour commands.</text>
 <junction x="132.08" y="58.42"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="VDD"/>
-<wire x1="175.26" y1="58.42" x2="182.88" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="5V"/>
-<wire x1="182.88" y1="58.42" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<junction x="182.88" y="58.42"/>
-</segment>
-<segment>
 <pinref part="H1" gate="J$1" pin="11"/>
 <wire x1="38.1" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="5V"/>
@@ -1960,7 +1911,7 @@ make the output match colour commands.</text>
 <wire x1="30.48" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <label x="20.32" y="40.64" size="1.778" layer="95"/>
 <wire x1="17.78" y1="40.64" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
-<label x="25.4" y="96.52" size="1.778" layer="95"/>
+<label x="17.78" y="96.52" size="1.778" layer="95"/>
 <pinref part="H1" gate="J$1" pin="5"/>
 <wire x1="17.78" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -1993,20 +1944,6 @@ make the output match colour commands.</text>
 <label x="121.92" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED3B" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="B"/>
-<wire x1="149.86" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="53.34" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
-<label x="167.64" y="71.12" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SW3" gate="G$1" pin="G"/>
-<wire x1="152.4" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
-<label x="162.56" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="DO"/>
@@ -2016,17 +1953,6 @@ make the output match colour commands.</text>
 <wire x1="127" y1="40.64" x2="127" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="DIN"/>
 <wire x1="127" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="DO"/>
-<wire x1="124.46" y1="50.8" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="50.8" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="40.64" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="DIN"/>
-<wire x1="177.8" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2101,34 +2027,6 @@ make the output match colour commands.</text>
 <label x="121.92" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED3G" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="G"/>
-<wire x1="149.86" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="55.88" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="68.58" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
-<label x="167.64" y="68.58" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="152.4" y1="149.86" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="G$1" pin="B"/>
-<label x="162.56" y="149.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LED3R" class="0">
-<segment>
-<pinref part="SW3" gate="G$1" pin="R"/>
-<wire x1="152.4" y1="160.02" x2="162.56" y2="160.02" width="0.1524" layer="91"/>
-<label x="162.56" y="160.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="R"/>
-<wire x1="149.86" y1="58.42" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="58.42" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="66.04" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
-<label x="167.64" y="66.04" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="LED2G" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="G"/>
@@ -2165,8 +2063,7 @@ make the output match colour commands.</text>
 <approved hash="202,1,73.66,55.88,IC1,SET,,,,"/>
 <approved hash="104,1,124.46,58.42,IC2,VDD,5V,,,"/>
 <approved hash="202,1,124.46,55.88,IC2,SET,,,,"/>
-<approved hash="104,1,175.26,58.42,IC3,VDD,5V,,,"/>
-<approved hash="202,1,175.26,55.88,IC3,SET,,,,"/>
+<approved hash="106,1,38.1,99.06,DATA_3,,,,,"/>
 <approved hash="106,1,53.34,99.06,DATA_4,,,,,"/>
 <approved hash="106,1,53.34,96.52,DATA_6,,,,,"/>
 <approved hash="106,1,38.1,93.98,DATA_7,,,,,"/>

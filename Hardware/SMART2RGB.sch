@@ -1717,7 +1717,7 @@ Standard ceramic capacitor</description>
 <plain>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <text x="139.7" y="20.32" size="3.048" layer="94">Home Automation RGB Smart Switch (2 Button)</text>
-<text x="165.1" y="14.478" size="1.778" layer="94">V2.0 (2020-11-06)</text>
+<text x="165.1" y="14.478" size="1.778" layer="94">V2.1 (2020-12-23)</text>
 <text x="139.7" y="14.478" size="1.778" layer="94">SKU: SMART2RGB</text>
 <text x="139.446" y="9.398" size="1.778" layer="94">(C)2018-2020 SuperHouse Automation Pty Ltd: www.superhouse.tv</text>
 <text x="139.446" y="6.35" size="1.778" layer="94">Released under the TAPR Open Hardware License: www.tapr.org/ohl</text>
@@ -1735,7 +1735,7 @@ DATA7: nc
 DATA8: nc
 
 WS2811 level shifter: https://forum.arduino.cc/index.php?topic=132750.15</text>
-<text x="175.26" y="149.86" size="1.778" layer="97">Green / blue outputs are reversed on
+<text x="175.26" y="149.86" size="1.778" layer="97">Colours are mismatched on
 WS2811 when controlled using the
 WS2812 drivers. LED lines switched to
 make the output match colour commands.</text>
@@ -1925,9 +1925,9 @@ make the output match colour commands.</text>
 <label x="66.04" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="G$1" pin="G"/>
-<wire x1="111.76" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
-<label x="121.92" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="111.76" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="G$1" pin="B"/>
+<label x="121.92" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LED2B" class="0">
@@ -1939,9 +1939,9 @@ make the output match colour commands.</text>
 <label x="116.84" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SW2" gate="G$1" pin="G"/>
-<wire x1="111.76" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
-<label x="121.92" y="114.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="111.76" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="SW2" gate="G$1" pin="B"/>
+<label x="121.92" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -2006,6 +2006,20 @@ make the output match colour commands.</text>
 <label x="121.92" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
+<pinref part="IC1" gate="G$1" pin="G"/>
+<wire x1="48.26" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<label x="66.04" y="68.58" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED1G" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="G"/>
+<wire x1="111.76" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+<label x="121.92" y="154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
 <pinref part="IC1" gate="G$1" pin="R"/>
 <wire x1="48.26" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="58.42" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
@@ -2013,32 +2027,18 @@ make the output match colour commands.</text>
 <label x="66.04" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LED1G" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="G"/>
-<wire x1="48.26" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="55.88" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<label x="66.04" y="68.58" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="111.76" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="G$1" pin="B"/>
-<label x="121.92" y="149.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="LED2G" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="G"/>
-<wire x1="99.06" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="55.88" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<label x="116.84" y="68.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="SW2" gate="G$1" pin="G"/>
+<wire x1="111.76" y1="114.3" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
+<label x="121.92" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="111.76" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="G$1" pin="B"/>
-<label x="121.92" y="109.22" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="R"/>
+<wire x1="99.06" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="58.42" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
+<label x="116.84" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LED2R" class="0">
@@ -2048,11 +2048,11 @@ make the output match colour commands.</text>
 <label x="121.92" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="R"/>
-<wire x1="99.06" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="58.42" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<label x="116.84" y="66.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="G"/>
+<wire x1="99.06" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="55.88" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<label x="116.84" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
